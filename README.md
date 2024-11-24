@@ -5,7 +5,7 @@
 This project is a comprehensive admin dashboard designed for managing users, roles, and permissions. It provides a secure and user-friendly interface for administrators to efficiently handle user accounts, assign roles, define permissions, and oversee system operations.
 
 
-# Rbac
+# rbac
 
 ## Key Features
 
