@@ -1,0 +1,188 @@
+/* Container for the Roles page */
+.roles-container {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    max-width: 800px;
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #e0e0e0; /* Subtle border */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading style */
+  .roles-container h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Button styles */
+  .button-toggle {
+    display: inline-block;
+    margin: 0 auto 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #3182ce; /* Tailwind Blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button-toggle:hover {
+    background-color: #2563eb; /* Slightly darker blue */
+  }
+  
+  /* Role Table */
+  .role-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: white;
+    text-align: left;
+  }
+  
+  .role-table th,
+  .role-table td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    font-size: 0.9rem;
+  }
+  
+  .role-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .role-table tr:hover {
+    background-color: #f9f9f9; /* Subtle hover effect */
+  }
+  
+  /* Edit and Delete Buttons */
+  .button-edit {
+    color: #3182ce;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .button-edit:hover {
+    text-decoration: underline;
+  }
+  
+  .button-delete {
+    color: #e53e3e;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+  }
+  
+  .button-delete:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form Styles */
+  .add-role-form {
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    max-width: 600px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .add-role-form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .add-role-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .add-role-form .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .add-role-form .form-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .add-role-form .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .add-role-form .button-save {
+    background-color: #48bb78; /* Tailwind Green */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-role-form .button-save:hover {
+    background-color: #38a169; /* Darker green */
+  }
+  
+  .add-role-form .button-cancel {
+    background-color: #edf2f7; /* Tailwind Light Gray */
+    color: #333;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-role-form .button-cancel:hover {
+    background-color: #e2e8f0; /* Slightly darker gray */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .roles-container {
+      padding: 1rem;
+    }
+  
+    .role-table th,
+    .role-table td {
+      padding: 0.5rem;
+      font-size: 0.8rem;
+    }
+  
+    .add-role-form {
+      padding: 1rem;
+    }
+  
+    .add-role-form .form-input {
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    }
+  
+    .add-role-form .form-buttons button {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+
+  
