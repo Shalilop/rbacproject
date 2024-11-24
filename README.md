@@ -21,8 +21,8 @@ This project is a comprehensive admin dashboard designed for managing users, rol
 
 -Dynamic Permissions:
 
-Assign or modify permissions for roles dynamically.
-View a detailed breakdown of permissions for better management.
+ - Assign or modify permissions for roles dynamically.
+ -  View a detailed breakdown of permissions for better management.
 
 -Responsive Design:
 
