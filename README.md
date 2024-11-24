@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Role-Based Access Control (RBAC) UI
 
 ## Project Overview
@@ -6,7 +6,6 @@ This project is a comprehensive admin dashboard designed for managing users, rol
 
 
 # rbac
->>>>>>> dbbf43d8811ad6767a4866a33503d994865e81e1
 
 ## Key Features
 
@@ -15,22 +14,22 @@ This project is a comprehensive admin dashboard designed for managing users, rol
   - Add, edit, or delete user accounts.
   - Assign roles and toggle user statuses (e.g., Active/Inactive).
 
-Role Management:
+-Role Management:
 
 - Create and edit roles with specific permissions.
 - Define custom permissions for each role.
 
-Dynamic Permissions:
+-Dynamic Permissions:
 
 Assign or modify permissions for roles dynamically.
 View a detailed breakdown of permissions for better management.
 
-Responsive Design:
+-Responsive Design:
 
 - Fully responsive UI built with React.js and Tailwind CSS.
 - Optimized for both desktop and mobile devices.
 
-Mock API Integration (Optional):
+-Mock API Integration (Optional):
 
 - Simulate server responses for CRUD operations on users and roles.
 - Easily extendable to real backend APIs.
